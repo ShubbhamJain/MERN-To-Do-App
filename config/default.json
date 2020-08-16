@@ -1,0 +1,4 @@
+{
+  "jwtSecret": "to_do_list_app_jwt_secret",
+  "MONGO_URI": ""
+}

@@ -1,0 +1,44 @@
+/* :root {
+  --mainColor: #15202b;
+  --secondaryColor: #192734;
+  --borderColor: #164d56;
+  --mainText: #fff;
+  --secondaryText: #eee;
+  --themeDotBorder: #fff;
+  --previewBg: rgb(25, 39, 52, 0.8);
+  --previewShadowBg: #111921;
+  --submitBtnColor: #17a2b8;
+} */
+
+/* body {
+  background-color: var(--mainColor) !important;
+} */
+
+/* .listItems {
+  border: 2px solid var(--borderColor);
+} */
+
+.group {
+  display: flex !important;
+  justify-content: space-between;
+  /* background-color: var(--secondaryColor) !important; */
+  /* color: #fff !important; */
+}
+
+.fade-enter {
+  opacity: 0.05;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 50ms ease-in;
+}
